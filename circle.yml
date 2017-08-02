@@ -38,6 +38,12 @@ deployment:
       # appropriately tag and push the container to dockerhub
       - ./bin/deploy
 
+  development:
+    branch: prototype
+    commands:
+      # appropriately tag and push the container to dockerhub
+      - ./bin/deploy
+
   tags:
     # push all tags
     tag: /.*/
